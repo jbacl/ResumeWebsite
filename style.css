@@ -8,11 +8,12 @@
 }
 body
 {
-    background: rgb(21, 80, 132);
+    background-image: url('space.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-size: repeat;
 }
 .container
 {
@@ -30,7 +31,7 @@ body
 .container .left_Side
 {
     position: relative;
-    background: rgb(0, 2, 46);
+    background: rgb(16,24,37);
     padding: 40px;
 }
 .profiletext
