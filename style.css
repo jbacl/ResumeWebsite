@@ -231,17 +231,18 @@ p
 .interest ul
 {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 40px auto;
+    grid-template-columns: 1fr auto;
 }
 .interest ul li
 {
     list-style: none;
-    color:rgb(0, 2, 46);
+    color:rgb(255, 255, 255);
     font-weight: 500;
 }
 .interest ul li .fa
 {
-    color:rgb(0, 2, 46);
+    color:rgb(255, 255, 255);
     font-size: 18px;
     width: 20px;
 }
