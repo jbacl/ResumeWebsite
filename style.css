@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 body
 {
     background-image: url('space.jpg');
@@ -15,6 +16,7 @@ body
     min-height: 100vh;
     background-size: repeat;
 }
+
 .container
 {
     position: relative;
@@ -28,12 +30,14 @@ body
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0);
 
 }
+
 .container .left_Side
 {
     position: relative;
     background: rgb(16,24,37);
     padding: 40px;
 }
+
 .profiletext
 {
     position: relative;
@@ -43,6 +47,7 @@ body
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255, 255, 255);
 }
+
 .profileText .imgBx
 {
     position: relative;
@@ -52,6 +57,7 @@ body
     overflow: hidden;
 
 }
+
 .profileText .imgBx img
 {
     position: absolute;
@@ -62,6 +68,7 @@ body
     object-fit: cover;
 
 }
+
 .profileText h2
 {
     color: #fff;
@@ -73,19 +80,23 @@ body
     line-height: 1.4em;
 
 }
+
 .profileText h2 span
 {
     font-size: 0.8em;
     font-weight: 300;
 }
+
 .profileText h6 span
 {
     color: rgb(1, 65, 130);
 }
+
 .contactInfo
 {
     padding-top: 40px;
 }
+
 .title
 {
     color: #fff;
@@ -94,45 +105,71 @@ body
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
+
 .contactInfo ul
 {
     position: relative;
 }
+
 .contactInfo ul li
 {
     list-style: none;
 }
+
 .contactInfo ul li .icon
 {
     display: inline-block;
     width: 25px;
     font-size: 18px;
-    color: #fff
+    color: #fff;
+    background-color: rgb(16,24,37);
+    position: relative;
+    cursor: pointer;
+
 }
+
+.contactInfo ul li .icon:hover
+{
+    color: #333333;
+    transition: 0.5s;
+}
+
 .contactInfo ul li span
 {
+    position: relative;
     color: #fff;
     font-weight: 200;
+    background-color: rgb(16,24,37);
 }
+
+.contactInfo ul li .linkedIn-text
+{
+    font-size: 13px;
+}
+
 .contactInfo.education li
 {
     margin-bottom: 15px;
 }
+
 .contactInfo.education h5
 {
     color: #ffffff;
     font-weight: 400;
 }
+
 .contactInfo.education h4:nth-child(2)
 {
     color: #fff;
     font-weight: 500;
 }
+
 .contactInfo.education h4
 {
     color: #fff;
     font-weight: 300;
 }
+
 .contactInfo.language .percent
 {
     position: relative;
@@ -143,6 +180,7 @@ body
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .contactInfo.language .percent div
 {
     position: absolute;
@@ -151,6 +189,7 @@ body
     height: 100%;
     background: #fff;
 }
+
 .container .right_Side
 {
     position: relative;
@@ -161,10 +200,12 @@ body
 {
     margin-bottom: 50px;
 }
+
 .about:last-child
 {
     margin-bottom: 0;
 }
+
 .title2
 {
     color:rgb(0, 2, 46);
@@ -172,32 +213,44 @@ body
     letter-spacing: 1px;
     margin-bottom: 5px;
 }
+
 p
 {
     color: rgb(0, 2, 46);
 }
+
 .about .box
 {
     display: flex;
     flex-direction: row;
     margin: 20px 0;
 }
+
 .about .box .year_company
 {
     min-width: 150px;   
 }
+
 .about .box .year_company h5
 {
     text-transform: uppercase;
     color:rgb(0, 2, 46);
     font-weight: 600;
 }
+
 .about .box .text h4
 {
     text-transform: uppercase;
     color:rgb(0, 2, 46);
     font-size: 16px;
 }
+
+.about .box .text a
+{
+    position: relative;
+    padding-left: 10px
+}
+
 .skills .box
 {
     position: relative;
@@ -207,12 +260,14 @@ p
     justify-content: center;
     align-items: center;
 }
+
 .skills .box h4
 {
     text-transform: uppercase;
     color:rgb(0, 2, 46);
     font-weight: 500;
 }
+
 .skills .box  .percent
 {
     position: relative;
@@ -220,6 +275,7 @@ p
     height: 10px;
     background: #d3d3d3;
 }
+
 .skills .box  .percent div
 {
     position: absolute;
@@ -228,23 +284,107 @@ p
     height: 100%;
     background:rgb(0, 2, 46);
 }
+
 .interest ul
 {
     display: grid;
     grid-template-rows: 40px auto;
     grid-template-columns: 1fr auto;
 }
+
 .interest ul li
 {
     list-style: none;
     color:rgb(255, 255, 255);
     font-weight: 500;
 }
+
 .interest ul li .fa
 {
     color:rgb(255, 255, 255);
     font-size: 18px;
     width: 20px;
+}
+
+button
+{
+    position: relative;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: auto;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(16,24,37);
+}
+
+button .fa
+{
+    font-size: 20px;
+}
+button:hover
+{
+    color:#333333;
+    box-shadow: 0 0 0px;
+}
+
+.printButton button
+{
+    position: relative;
+    text-align: right;
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(16,24,37);
+}
+
+.printButton button .h7
+{
+    text-transform: none;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.social-icon
+{
+    color: white;
+    font-size: 19px;
+    transition: none 0.5s;
+}
+
+.icon-ytube
+{
+    color:#aaaaaa;
+    font-size: 22px;
+    transition: none 0.5s;
+}
+
+.icon-ytube:hover
+{
+    color: #333333;
+    background-color: none;
+    transition: 0.5s;
+}
+
+.social-icon:hover
+{
+    color: #333333;
+    background-color: none;
+    transition: 0.5s;
+}
+
+.googleMap 
+{
+    padding-top: 10px;
+    position: relative;
+}
+
+.googleMap iframe 
+{
+    height: 100px;
+    width: 100%;
 }
 
 @media (max-width: 1000px)
