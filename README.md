@@ -1,3 +1,5 @@
-# Responsive Resume Website  
+# Portfolio Website
 
-## Visual representation of my resume (jacobbaclawski.com)
+## Welcome to my Portfolio!
+
+### 
